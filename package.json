@@ -1,0 +1,27 @@
+{
+  "name": "mpd-current-song",
+  "version": "0.0.1",
+  "description": "Get the current playing song on MPD to feed the totem",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fixme-lausanne/totem.git"
+  },
+  "keywords": [
+    "fixme"
+  ],
+  "author": "BinaryBrain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fixme-lausanne/totem/issues"
+  },
+  "homepage": "https://github.com/fixme-lausanne/totem",
+  "bin": {
+    "mpd-current-song": "./index.js"
+  }
+}
